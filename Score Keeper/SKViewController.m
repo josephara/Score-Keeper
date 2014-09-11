@@ -10,6 +10,8 @@
 
 @interface SKViewController ()
 
+@property (strong, nonatomic) UILabel *lablel;
+
 @end
 
 @implementation SKViewController
@@ -26,15 +28,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+  // Do any additional setup after loading the view.
+
+ 
+    [self createScoreSubview];
 }
+
+-(void) createScoreSubview{
+
+    UIView *scoreView = [[UIView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 100)];
+    scoreView.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:scoreView];
+//    self.label.text = @"Change Me!";
+    
+//    UIButton * Button
+    
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 /*
 #pragma mark - Navigation
 
