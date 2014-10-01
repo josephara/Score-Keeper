@@ -2,7 +2,7 @@
 //  SKViewController.m
 //  Score Keeper
 //
-//  Created by Joseph Aranda on 9/10/14.
+//  Created by Joseph Aranda on 9/30/14.
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
 
@@ -10,54 +10,25 @@
 
 @interface SKViewController ()
 
-@property (strong, nonatomic) UILabel *lablel;
-
 @end
 
 @implementation SKViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-  // Do any additional setup after loading the view.
-
- 
-    [self createScoreSubview];
+    // Do any additional setup after loading the view.
 }
 
--(void) createScoreSubview{
-
-    UIView *scoreView = [[UIView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 100)];
-    scoreView.backgroundColor = [UIColor orangeColor];
-    [self.view addSubview:scoreView];
-//    self.label.text = @"Change Me!";
-    
-//    UIButton * Button
-    
-    
-}
-
-
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 /*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
