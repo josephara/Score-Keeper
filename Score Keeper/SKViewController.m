@@ -2,7 +2,8 @@
 //  SKViewController.m
 //  Score Keeper
 //
-//  Created by Joseph Aranda on 9/30/14.
+//Users/joe/Documents/code/Score-Keeper/Score Keeper/SKViewController.h
+
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
 

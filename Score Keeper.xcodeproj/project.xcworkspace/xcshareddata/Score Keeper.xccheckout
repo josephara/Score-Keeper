@@ -10,29 +10,29 @@
 	<string>Score Keeper</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>14F3C89D-69B4-4987-B9F1-05050D62B90E</key>
+		<key>B06274EB5666600F64E051E490B192D68A31DB27</key>
 		<string>https://github.com/josephara/Score-Keeper.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Score Keeper.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>14F3C89D-69B4-4987-B9F1-05050D62B90E</key>
+		<key>B06274EB5666600F64E051E490B192D68A31DB27</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/josephara/Score-Keeper.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>14F3C89D-69B4-4987-B9F1-05050D62B90E</string>
+	<string>B06274EB5666600F64E051E490B192D68A31DB27</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>14F3C89D-69B4-4987-B9F1-05050D62B90E</string>
+			<string>B06274EB5666600F64E051E490B192D68A31DB27</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Score-Keeper</string>
 		</dict>

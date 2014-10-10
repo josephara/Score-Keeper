@@ -8,6 +8,7 @@
 
 #import "SKAppDelegate.h"
 #import "SKScoreViewController.h"
+#import "SKViewController.h"
 @implementation SKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -16,12 +17,12 @@
     // Override point for customization after application launch.
     
     
+   
     
-    
-    UIViewController *scoreViewController = [[UIViewController alloc] init];
-    self.window.rootViewController = scoreViewController;
-    UINavigationController *navController =[[UINavigationController alloc] init];
+    SKScoreViewController *viewController = [[SKScoreViewController alloc] init];
+ UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
     self.window.rootViewController = navController;
+
     
 
     

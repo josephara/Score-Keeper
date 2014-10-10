@@ -74,10 +74,11 @@ static CGFloat scoreViewHeight = 90;
         scoreStepper.maximumValue = 1000;
         scoreStepper.maximumValue = -1000;
         scoreStepper.tag = index;
+        
         [scoreStepper addTarget:self action:@selector(scoreStepperChanged:) forControlEvents:UIControlEventValueChanged];
         [view addSubview:scoreStepper];
 
-        UIView * seperator = [[UIView alloc] initWithFrame:CGRectMake(0, scoreViewHeight - 1, self.view.frame.size.width, 1)];
+        UIView * seperator = [[UIView alloc] initWithFrame:CGRectMake(0, scoreViewHeight -2, self.view.frame.size.width, 1)];
         seperator.backgroundColor = [UIColor lightGrayColor];
         [self.scrollView addSubview:view];
     }

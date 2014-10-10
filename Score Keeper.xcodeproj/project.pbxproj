@@ -19,7 +19,7 @@
 		71DEBF2F1924955A0032F31F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DEBF171924955A0032F31F /* UIKit.framework */; };
 		71DEBF371924955A0032F31F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71DEBF351924955A0032F31F /* InfoPlist.strings */; };
 		71DEBF391924955A0032F31F /* Score_KeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DEBF381924955A0032F31F /* Score_KeeperTests.m */; };
-		D8588CC619C1380200B7A7DE /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8588CC519C1380200B7A7DE /* SKViewController.m */; };
+		D8900C0419D29ABB00BB39C4 /* SKScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8900C0319D29ABB00BB39C4 /* SKScoreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		71DEBF341924955A0032F31F /* Score KeeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Score KeeperTests-Info.plist"; sourceTree = "<group>"; };
 		71DEBF361924955A0032F31F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71DEBF381924955A0032F31F /* Score_KeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Score_KeeperTests.m; sourceTree = "<group>"; };
-		D8588CC419C1380200B7A7DE /* SKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKViewController.h; sourceTree = "<group>"; };
-		D8588CC519C1380200B7A7DE /* SKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+		D8900C0219D29ABB00BB39C4 /* SKScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKScoreViewController.h; sourceTree = "<group>"; };
+		D8900C0319D29ABB00BB39C4 /* SKScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKScoreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +112,10 @@
 			children = (
 				71DEBF221924955A0032F31F /* SKAppDelegate.h */,
 				71DEBF231924955A0032F31F /* SKAppDelegate.m */,
+				D8900C0219D29ABB00BB39C4 /* SKScoreViewController.h */,
+				D8900C0319D29ABB00BB39C4 /* SKScoreViewController.m */,
 				71DEBF251924955A0032F31F /* Images.xcassets */,
 				71DEBF1A1924955A0032F31F /* Supporting Files */,
-				D8588CC419C1380200B7A7DE /* SKViewController.h */,
-				D8588CC519C1380200B7A7DE /* SKViewController.m */,
 			);
 			path = "Score Keeper";
 			sourceTree = "<group>";
@@ -246,8 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				71DEBF241924955A0032F31F /* SKAppDelegate.m in Sources */,
-				D8588CC619C1380200B7A7DE /* SKViewController.m in Sources */,
 				71DEBF201924955A0032F31F /* main.m in Sources */,
+				D8900C0419D29ABB00BB39C4 /* SKScoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
